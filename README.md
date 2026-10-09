@@ -9,3 +9,8 @@ Estudiante: Jerónimo Berrio García.
 Docente: Walter Hugo Arboleda Mazo.
 
 # Contenido de los ejercicios
+[Ejercicio 2.1 "PERSONA"](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-4-Edades)
+[Ejercicio 2.2](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-5-Prueba-escritorio)
+[Ejercicio 2.3](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-12-Trabajador)
+[Ejercicio 2.4](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-14-Potenciacion)
+[Ejercicio 2.5](https://github.com/jeroberrig/trabajo1-POO-2026-2/tree/main/Ejercicio-17-Circulo)
