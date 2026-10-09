@@ -1,0 +1,498 @@
+{
+  "_type": "Project",
+  "_id": "AAAAA9kNYosrlrBGIlwGZo",
+  "name": "SistemaPlanetas",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAADMulF18YAGQIJIzAb",
+      "_parent": {
+        "$ref": "AAAAA9kNYosrlrBGIlwGZo"
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAgB4ctzLejJkBXSCf7",
+          "_parent": {
+            "$ref": "AAAAADMulF18YAGQIJIzAb"
+          },
+          "name": "DiagramaDeClases",
+          "ownedViews": [
+            {
+              "_type": "UMLEnumerationView",
+              "_id": "AAAAAqK9cxLrpReUJSCuiR",
+              "_parent": {
+                "$ref": "AAAAAgB4ctzLejJkBXSCf7"
+              },
+              "model": {
+                "$ref": "AAAAAiRabY1cc7fnls1SYQ"
+              },
+              "font": "Arial;13;0",
+              "left": 60,
+              "top": 80,
+              "width": 180,
+              "height": 115
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "AAAAA3aFbksUqqavgK2Lwn",
+              "_parent": {
+                "$ref": "AAAAAgB4ctzLejJkBXSCf7"
+              },
+              "model": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "font": "Arial;13;0",
+              "left": 280,
+              "top": 80,
+              "width": 280,
+              "height": 260
+            }
+          ]
+        },
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAf539wsmaoTuLCSgnK",
+          "_parent": {
+            "$ref": "AAAAADMulF18YAGQIJIzAb"
+          },
+          "name": "DiagramaDeObjetos",
+          "ownedViews": [
+            {
+              "_type": "UMLObjectView",
+              "_id": "AAAAAilmUgpSneV5A1XcHq",
+              "_parent": {
+                "$ref": "AAAAAf539wsmaoTuLCSgnK"
+              },
+              "model": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "font": "Arial;13;0",
+              "left": 60,
+              "top": 80,
+              "width": 260,
+              "height": 220
+            },
+            {
+              "_type": "UMLObjectView",
+              "_id": "AAAAAjttnLW0rroUr3ORx0",
+              "_parent": {
+                "$ref": "AAAAAf539wsmaoTuLCSgnK"
+              },
+              "model": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "font": "Arial;13;0",
+              "left": 360,
+              "top": 80,
+              "width": 260,
+              "height": 220
+            }
+          ]
+        },
+        {
+          "_type": "UMLEnumeration",
+          "_id": "AAAAAiRabY1cc7fnls1SYQ",
+          "_parent": {
+            "$ref": "AAAAADMulF18YAGQIJIzAb"
+          },
+          "name": "TipoPlaneta",
+          "literals": [
+            {
+              "_type": "UMLEnumerationLiteral",
+              "_id": "AAAAAXL8b0IeAVEKCaAzdq",
+              "_parent": {
+                "$ref": "AAAAAiRabY1cc7fnls1SYQ"
+              },
+              "name": "GASEOSO"
+            },
+            {
+              "_type": "UMLEnumerationLiteral",
+              "_id": "AAAAAw5uh9pshwNK48wKrp",
+              "_parent": {
+                "$ref": "AAAAAiRabY1cc7fnls1SYQ"
+              },
+              "name": "TERRESTRE"
+            },
+            {
+              "_type": "UMLEnumerationLiteral",
+              "_id": "AAAAArh8feAGStzM367bWy",
+              "_parent": {
+                "$ref": "AAAAAiRabY1cc7fnls1SYQ"
+              },
+              "name": "ENANO"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAd5OIVFuFMCUGk8wNC",
+          "_parent": {
+            "$ref": "AAAAADMulF18YAGQIJIzAb"
+          },
+          "name": "Planeta",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAA3oZ18E4sHPTFDSwlC",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "nombre",
+              "type": "String",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAbTr1DIzS295oyaauQ",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "cantidadSatelites",
+              "type": "int",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAp6V1ADqipZjYLvSdf",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "masa",
+              "type": "double",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAA0lQXOVnbDyQNJFTSp",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "volumen",
+              "type": "double",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAiMBAVef0JILV9rBVq",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "diametro",
+              "type": "int",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAADCXr2JJBzVM1qG6j4",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "distanciaSol",
+              "type": "int",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAz3DsblunROLq56863",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "tipo",
+              "type": "TipoPlaneta",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAA52MvqK40zPkP8pFi7",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "esObservable",
+              "type": "boolean",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAcXF8FdJ6c1W49lQLS",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "periodoOrbital",
+              "type": "double",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAPVNyXrltw0FbuM43F",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "periodoRotacion",
+              "type": "double",
+              "visibility": "public"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAARMHHyT2nK8MR4FceQ",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "imprimir",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAAl4gm4ayG5rBVqMwHv",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "calcularDensidad",
+              "visibility": "public",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "_id": "AAAAAqFF8xY77dniAyYmpO",
+                  "_parent": {
+                    "$ref": "AAAAAl4gm4ayG5rBVqMwHv"
+                  },
+                  "type": "double",
+                  "direction": "return"
+                }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAAWIaHCbgpc8xxEID0A",
+              "_parent": {
+                "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+              },
+              "name": "esPlanetaExterior",
+              "visibility": "public",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "_id": "AAAAAAPQf11CApWIelCDy1",
+                  "_parent": {
+                    "$ref": "AAAAAWIaHCbgpc8xxEID0A"
+                  },
+                  "type": "boolean",
+                  "direction": "return"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "UMLObject",
+          "_id": "AAAAAsSuVkCJKXRmGR5Xos",
+          "_parent": {
+            "$ref": "AAAAADMulF18YAGQIJIzAb"
+          },
+          "name": "p1",
+          "classifier": {
+            "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+          },
+          "slots": [
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAPUK236EKjLPl7Pcd8",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "nombre",
+              "value": "\"Tierra\""
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAHl8URowjp4peF4Aqp",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "cantidadSatelites",
+              "value": "1"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAA8LzllkTEm01h8oQd4",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "masa",
+              "value": "5.9736E24"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAA6H2yalzxKdaAI3RLk",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "volumen",
+              "value": "1.08321E12"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAvbNNdipLmwn2qdscS",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "diametro",
+              "value": "12742"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAWDyXD8PvkP6UeRVzY",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "distanciaSol",
+              "value": "150000000"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAqB45I6A5bJGFVnPYz",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "tipo",
+              "value": "TERRESTRE"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAA7oGzoz0vqwbZcW7B0",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "esObservable",
+              "value": "true"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAXEzsqA0AR9cEHAI7L",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "periodoOrbital",
+              "value": "1.0"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAGcoWrdY6ohZcM4TRJ",
+              "_parent": {
+                "$ref": "AAAAAsSuVkCJKXRmGR5Xos"
+              },
+              "name": "periodoRotacion",
+              "value": "1.0"
+            }
+          ]
+        },
+        {
+          "_type": "UMLObject",
+          "_id": "AAAAAzNmYpGPaIicQwwhoD",
+          "_parent": {
+            "$ref": "AAAAADMulF18YAGQIJIzAb"
+          },
+          "name": "p2",
+          "classifier": {
+            "$ref": "AAAAAd5OIVFuFMCUGk8wNC"
+          },
+          "slots": [
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAmLn4YiuImpVOsiyor",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "nombre",
+              "value": "\"Júpiter\""
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAALnk0ZiUCVqx67PVO4",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "cantidadSatelites",
+              "value": "79"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAs5LZNJIFZvGpPMSoa",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "masa",
+              "value": "1.899E27"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAABR2ATStgF94IfHFI2",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "volumen",
+              "value": "1.4313E15"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAg4G0onTH1v5r3HqpW",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "diametro",
+              "value": "139820"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAZ59xkg7PG3fbvhqjg",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "distanciaSol",
+              "value": "750000000"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAA3xpa7myaL89n50dSG",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "tipo",
+              "value": "GASEOSO"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAMWyRhJl0IkuRBAxIO",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "esObservable",
+              "value": "true"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAknlabk2bMjtwh1s23",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "periodoOrbital",
+              "value": "11.86"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAz8VPxU7CJTbi0lkdQ",
+              "_parent": {
+                "$ref": "AAAAAzNmYpGPaIicQwwhoD"
+              },
+              "name": "periodoRotacion",
+              "value": "0.41"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAEGDqegPHiFhiEsw8u",
+  "name": "SistemaCuentaBancaria",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAUwoDji0m5AGKrksSZ",
+      "_parent": {
+        "$ref": "AAAAAEGDqegPHiFhiEsw8u"
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAzja0pSHnPnl2erHF9",
+          "_parent": {
+            "$ref": "AAAAAUwoDji0m5AGKrksSZ"
+          },
+          "name": "DiagramaDeClases",
+          "ownedViews": [
+            {
+              "_type": "UMLEnumerationView",
+              "_id": "AAAAAR7wYz0C7CfKpvDbtn",
+              "_parent": {
+                "$ref": "AAAAAzja0pSHnPnl2erHF9"
+              },
+              "model": {
+                "$ref": "AAAAApwXqgBBPlNIJmuToZ"
+              },
+              "font": "Arial;13;0",
+              "left": 50,
+              "top": 50,
+              "width": 170,
+              "height": 100
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "AAAAA03Sp6v5QJk9jzhIch",
+              "_parent": {
+                "$ref": "AAAAAzja0pSHnPnl2erHF9"
+              },
+              "model": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "font": "Arial;13;0",
+              "left": 260,
+              "top": 50,
+              "width": 300,
+              "height": 260
+            }
+          ]
+        },
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAMl4F9Kfxwz4WPLvLy",
+          "_parent": {
+            "$ref": "AAAAAUwoDji0m5AGKrksSZ"
+          },
+          "name": "DiagramaDeObjetos",
+          "ownedViews": [
+            {
+              "_type": "UMLObjectView",
+              "_id": "AAAAAJfP7ORk183VnNUcW6",
+              "_parent": {
+                "$ref": "AAAAAMl4F9Kfxwz4WPLvLy"
+              },
+              "model": {
+                "$ref": "AAAAAWPLVNiSrgInoPNe7S"
+              },
+              "font": "Arial;13;0",
+              "left": 100,
+              "top": 50,
+              "width": 300,
+              "height": 180
+            }
+          ]
+        },
+        {
+          "_type": "UMLEnumeration",
+          "_id": "AAAAApwXqgBBPlNIJmuToZ",
+          "_parent": {
+            "$ref": "AAAAAUwoDji0m5AGKrksSZ"
+          },
+          "name": "TipoCuenta",
+          "literals": [
+            {
+              "_type": "UMLEnumerationLiteral",
+              "_id": "AAAAAlAXoLXDd83c6H1dOn",
+              "_parent": {
+                "$ref": "AAAAApwXqgBBPlNIJmuToZ"
+              },
+              "name": "AHORROS"
+            },
+            {
+              "_type": "UMLEnumerationLiteral",
+              "_id": "AAAAANMZPmeWkhtvkMnABV",
+              "_parent": {
+                "$ref": "AAAAApwXqgBBPlNIJmuToZ"
+              },
+              "name": "CORRIENTE"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "AAAAAarckYfdm1m3B6N74c",
+          "_parent": {
+            "$ref": "AAAAAUwoDji0m5AGKrksSZ"
+          },
+          "name": "CuentaBancaria",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAP0ZM7p0erp4IsAe4v",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "nombresTitular",
+              "type": "String",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAGbEI6qs9dHh5WzeO5",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "apellidosTitular",
+              "type": "String",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAPjtlzDMb1dfx4EMSG",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "numeroCuenta",
+              "type": "int",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAASamH71C3RFnJo95R0",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "tipoCuenta",
+              "type": "TipoCuenta",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAAKzVucQaU9IOAxPILZ",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "saldo",
+              "type": "float",
+              "visibility": "public"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "AAAAA0rBeQYRSjVaN2riBB",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "porcentajeInteresMensual",
+              "type": "float",
+              "visibility": "public"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAAbtXd5rtyYs1PKRMbj",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "imprimir",
+              "visibility": "public",
+              "parameters": []
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAAzglYibaDj3KpbrFbP",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "consultarSaldo",
+              "visibility": "public",
+              "parameters": []
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAAHVRP8046aZCuQfgFA",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "consignar",
+              "visibility": "public",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "_id": "AAAAAky7aLmLFsla0CT51J",
+                  "_parent": {
+                    "$ref": "AAAAAHVRP8046aZCuQfgFA"
+                  },
+                  "name": "valor",
+                  "type": "float"
+                },
+                {
+                  "_type": "UMLParameter",
+                  "_id": "AAAAAgUREuYa3nRatoLWJ3",
+                  "_parent": {
+                    "$ref": "AAAAAHVRP8046aZCuQfgFA"
+                  },
+                  "type": "boolean",
+                  "direction": "return"
+                }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAAXivShKnwy8IA5D0Am",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "retirar",
+              "visibility": "public",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "_id": "AAAAAkRSfeAQ5edpNJc5CE",
+                  "_parent": {
+                    "$ref": "AAAAAXivShKnwy8IA5D0Am"
+                  },
+                  "name": "valor",
+                  "type": "float"
+                },
+                {
+                  "_type": "UMLParameter",
+                  "_id": "AAAAAr0It8GKnujuaNPWgc",
+                  "_parent": {
+                    "$ref": "AAAAAXivShKnwy8IA5D0Am"
+                  },
+                  "type": "boolean",
+                  "direction": "return"
+                }
+              ]
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "AAAAAgxIPDTqxjz84aFPz3",
+              "_parent": {
+                "$ref": "AAAAAarckYfdm1m3B6N74c"
+              },
+              "name": "aplicarInteresMensual",
+              "visibility": "public",
+              "parameters": [
+                {
+                  "_type": "UMLParameter",
+                  "_id": "AAAAAQ3ndSHjtZanLcmV8C",
+                  "_parent": {
+                    "$ref": "AAAAAgxIPDTqxjz84aFPz3"
+                  },
+                  "type": "float",
+                  "direction": "return"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "UMLObject",
+          "_id": "AAAAAWPLVNiSrgInoPNe7S",
+          "_parent": {
+            "$ref": "AAAAAUwoDji0m5AGKrksSZ"
+          },
+          "name": "cuenta",
+          "classifier": {
+            "$ref": "AAAAAarckYfdm1m3B6N74c"
+          },
+          "slots": [
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAGQ2GMlgcbmvqwv3CJ",
+              "_parent": {
+                "$ref": "AAAAAWPLVNiSrgInoPNe7S"
+              },
+              "name": "nombresTitular",
+              "value": "\"Pedro\""
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAXdGlsepHP75Opqv6B",
+              "_parent": {
+                "$ref": "AAAAAWPLVNiSrgInoPNe7S"
+              },
+              "name": "apellidosTitular",
+              "value": "\"Pérez\""
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAMu7tqbfab36lBmlSi",
+              "_parent": {
+                "$ref": "AAAAAWPLVNiSrgInoPNe7S"
+              },
+              "name": "numeroCuenta",
+              "value": "123456789"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAn95p3IdXygH7c2ub7",
+              "_parent": {
+                "$ref": "AAAAAWPLVNiSrgInoPNe7S"
+              },
+              "name": "tipoCuenta",
+              "value": "AHORROS"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAorkjTbahOtbhmGfiR",
+              "_parent": {
+                "$ref": "AAAAAWPLVNiSrgInoPNe7S"
+              },
+              "name": "saldo",
+              "value": "101500.0"
+            },
+            {
+              "_type": "UMLSlot",
+              "_id": "AAAAAGCDrXBWDWj7GXMQuF",
+              "_parent": {
+                "$ref": "AAAAAWPLVNiSrgInoPNe7S"
+              },
+              "name": "porcentajeInteresMensual",
+              "value": "1.5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
